@@ -3,7 +3,7 @@
 	<parent>
 		<artifactId>derquinse-pom</artifactId>
 		<groupId>net.derquinse</groupId>
-		<version>39</version>
+		<version>41</version>
 	</parent>
 	<artifactId>derquinse-common-project-parent</artifactId>
 	<version>1.0.31-SNAPSHOT</version>
@@ -21,44 +21,49 @@
 			<dependency>
 				<groupId>net.derquinse</groupId>
 				<artifactId>derquinse-common-test-deps</artifactId>
-				<version>1.0.30</version>
+				<version>1.0.31</version>
 				<type>pom</type>
 			</dependency>
 			<dependency>
 				<groupId>net.derquinse</groupId>
 				<artifactId>derquinse-common-base</artifactId>
-				<version>1.0.30</version>
+				<version>1.0.31</version>
 			</dependency>
 			<dependency>
 				<groupId>net.derquinse</groupId>
 				<artifactId>derquinse-common-base</artifactId>
-				<version>1.0.30</version>
+				<version>1.0.31</version>
 				<type>test-jar</type>
 			</dependency>
 			<dependency>
 				<groupId>net.derquinse</groupId>
 				<artifactId>derquinse-common-orm</artifactId>
-				<version>1.0.30</version>
+				<version>1.0.31</version>
 			</dependency>
 			<dependency>
 				<groupId>net.derquinse</groupId>
 				<artifactId>derquinse-common-orm-hib</artifactId>
-				<version>1.0.30</version>
+				<version>1.0.31</version>
 			</dependency>
 			<dependency>
 				<groupId>net.derquinse</groupId>
 				<artifactId>derquinse-common-gson</artifactId>
-				<version>1.0.30</version>
+				<version>1.0.31</version>
 			</dependency>
 			<dependency>
 				<groupId>net.derquinse</groupId>
 				<artifactId>derquinse-common-jaxrs</artifactId>
-				<version>1.0.30</version>
+				<version>1.0.31</version>
 			</dependency>
 			<dependency>
 				<groupId>net.derquinse</groupId>
 				<artifactId>derquinse-common-jaxrs-gson</artifactId>
-				<version>1.0.30</version>
+				<version>1.0.31</version>
+			</dependency>
+			<dependency>
+				<groupId>net.derquinse</groupId>
+				<artifactId>derquinse-common-metrics</artifactId>
+				<version>1.0.31</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
@@ -86,7 +91,8 @@
 						<link>http://static.springsource.org/spring/docs/3.2.x/javadoc-api</link>
 						<link>http://static.springsource.org/spring-security/site/docs/3.1.x/apidocs</link>
 						<link>http://lucene.apache.org/core/3_6_2/api/all/</link>
-						<link>http://apis.derquinse.net/derquinse-common/1.0.30</link>
+						<link>http://metrics.codahale.com/maven/apidocs/</link>
+						<link>http://apis.derquinse.net/derquinse-common/1.0.31</link>
 					</links>
 				</configuration>
 			</plugin>
