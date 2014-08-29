@@ -3,10 +3,10 @@
 	<parent>
 		<artifactId>derquinse-pom</artifactId>
 		<groupId>net.derquinse</groupId>
-		<version>44</version>
+		<version>46</version>
 	</parent>
 	<artifactId>derquinse-common-project-parent</artifactId>
-	<version>1.0.35</version>
+	<version>1.0.37</version>
 	<packaging>pom</packaging>
 	<name>Derquinse Commons :: Parent POM for projects based on it</name>
 	<description>Parent POM for projects based on Derquinse Commons</description>
@@ -21,49 +21,49 @@
 			<dependency>
 				<groupId>net.derquinse</groupId>
 				<artifactId>derquinse-common-test-deps</artifactId>
-				<version>1.0.35</version>
+				<version>1.0.37</version>
 				<type>pom</type>
 			</dependency>
 			<dependency>
 				<groupId>net.derquinse</groupId>
 				<artifactId>derquinse-common-base</artifactId>
-				<version>1.0.35</version>
+				<version>1.0.37</version>
 			</dependency>
 			<dependency>
 				<groupId>net.derquinse</groupId>
 				<artifactId>derquinse-common-base</artifactId>
-				<version>1.0.35</version>
+				<version>1.0.37</version>
 				<type>test-jar</type>
 			</dependency>
 			<dependency>
 				<groupId>net.derquinse</groupId>
 				<artifactId>derquinse-common-orm</artifactId>
-				<version>1.0.35</version>
+				<version>1.0.37</version>
 			</dependency>
 			<dependency>
 				<groupId>net.derquinse</groupId>
 				<artifactId>derquinse-common-orm-hib</artifactId>
-				<version>1.0.35</version>
+				<version>1.0.37</version>
 			</dependency>
 			<dependency>
 				<groupId>net.derquinse</groupId>
 				<artifactId>derquinse-common-gson</artifactId>
-				<version>1.0.35</version>
+				<version>1.0.37</version>
 			</dependency>
 			<dependency>
 				<groupId>net.derquinse</groupId>
 				<artifactId>derquinse-common-jaxrs</artifactId>
-				<version>1.0.35</version>
+				<version>1.0.37</version>
 			</dependency>
 			<dependency>
 				<groupId>net.derquinse</groupId>
 				<artifactId>derquinse-common-jaxrs-gson</artifactId>
-				<version>1.0.35</version>
+				<version>1.0.37</version>
 			</dependency>
 			<dependency>
 				<groupId>net.derquinse</groupId>
 				<artifactId>derquinse-common-metrics</artifactId>
-				<version>1.0.35</version>
+				<version>1.0.37</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
@@ -81,7 +81,7 @@
 				<artifactId>maven-javadoc-plugin</artifactId>
 				<configuration>
 					<links>
-						<link>http://docs.guava-libraries.googlecode.com/git-history/v14.0.1/javadoc</link>
+						<link>http://docs.guava-libraries.googlecode.com/git-history/v18.0/javadoc</link>
 						<link>http://www.joda.org/joda-time/apidocs</link>
 						<link>http://jsr311.java.net/nonav/releases/1.1</link>
 						<link>http://jersey.java.net/nonav/apidocs/1.17/jersey</link>
@@ -91,7 +91,7 @@
 						<link>http://static.springsource.org/spring/docs/3.2.x/javadoc-api</link>
 						<link>http://static.springsource.org/spring-security/site/docs/3.1.x/apidocs</link>
 						<link>http://lucene.apache.org/core/3_6_2/api/all/</link>
-						<link>http://apis.derquinse.net/derquinse-common/1.0.35</link>
+						<link>http://apis.derquinse.net/derquinse-common/1.0.37</link>
 					</links>
 				</configuration>
 			</plugin>
